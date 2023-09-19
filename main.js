@@ -21,7 +21,7 @@ function adicionaLinha() {
 
         let lista = '<ul>';
         lista += `<li>${inputTarefa.value}</li>`;
-        lista += '</ul>'; /* SE O CÓDIGO NÃO FUNCIONAR MUDA AQUI POR '</li>' */
+        lista += '</ul>';
 
         listas += lista;
     }
