@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 0;
+}
+
+header, form {
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 17px;
+}
+
+form ul {
+    margin-top: 20px;
+    list-style-position: inside; /*coloca o pontinho ao lado da tarefa*/
+}
+
+form input, button {
+    padding: 3px;
+}
+
+form button {
+    margin-left: 5px;
+}
+
+form li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
