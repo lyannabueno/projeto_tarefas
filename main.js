@@ -32,10 +32,10 @@ function adicionaLinha() {
 function atualizaLista() {
     const corpoLista = document.querySelector('ul');
     corpoLista.innerHTML = listas;
-}
 
-$(document).ready(function() {
-    $('li').click(function() {
-        $(this).css('text-decoration', 'line-through');
+    $(document).ready(function() {
+        $('li').click(function() {
+            $(this).css('text-decoration', 'line-through');
+        });
     });
-});
+}
